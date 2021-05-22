@@ -17,10 +17,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.parent {
-    background-color: #eee;
-}
-
+// .parent {
+//     background-color: #eee;
+// }
 .container {
     padding-left: 15px;
     padding-right: 15px;
@@ -412,9 +411,11 @@ header {
         }
     }
     @media (max-width: 767px) {
-        .info p.label,
-        a.link {
+        .info p.label {
             font-size: 25px;
+        }
+        .info a.link {
+            font-size: 28px;
         }
     }
 }

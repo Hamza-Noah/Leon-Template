@@ -13,10 +13,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.parent {
-  background-color: #eee;
-}
-
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -491,9 +487,11 @@ header .links ul li:not(:last-child) a {
 }
 
 @media (max-width: 767px) {
-  .contact .info p.label,
-  .contact a.link {
+  .contact .info p.label {
     font-size: 25px;
+  }
+  .contact .info a.link {
+    font-size: 28px;
   }
 }
 
